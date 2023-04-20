@@ -13,6 +13,7 @@ public class PlayerController : Character
     [SerializeField] private float _gravity;
     [SerializeField] protected MeshRenderer meshRenderer;
     [SerializeField] private Animator animator;
+    int move;
     
 
 
@@ -40,7 +41,14 @@ public class PlayerController : Character
 
         if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
         {
+            move = 1;
             transform.rotation = Quaternion.LookRotation(new Vector3(_joystick.Horizontal, 0f, _joystick.Vertical));
+            animator.SetFloat("Move", Mathf.Abs(move));
+        }
+        else if(_joystick.Horizontal == 0 && _joystick.Vertical == 0)
+        {
+            move = 0;
+            animator.SetFloat("Move", Mathf.Abs(move));
         }
     }
 

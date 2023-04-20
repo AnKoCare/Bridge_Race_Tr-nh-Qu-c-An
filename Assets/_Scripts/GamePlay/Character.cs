@@ -79,7 +79,7 @@ public class Character : MonoBehaviour
 
     protected void CheckStair()
     {
-        Debug.DrawLine(transform.position + Vector3.forward, transform.position + Vector3.forward + Vector3.down, Color.red, 2f);
+        //Debug.DrawLine(transform.position + Vector3.forward, transform.position + Vector3.forward + Vector3.down, Color.red, 2f);
         if(Physics.Raycast(transform.position + Vector3.forward + Vector3.up, Vector3.down, out RaycastHit stair, Mathf.Infinity, brickStair))
         {
             Collider colliderStair = stair.collider;

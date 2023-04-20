@@ -398,7 +398,13 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Bip001'\n\tTransform 'Bip001 R Forearm'\n\tTransform
+    'Bip001 L Forearm'\n\tTransform 'Bip001 L UpperArm'\n\tTransform 'Bip001 R UpperArm'\n\tTransform
+    'Bip001 R Foot'\n\tTransform 'Bip001 R Calf'\n\tTransform 'Bip001 R Thigh'\n\tTransform
+    'Bip001'\n\tTransform 'Bip001 L Thigh'\n\tand more ...\n\tFrom animation clip
+    'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -540,6 +546,7 @@ MonoBehaviour:
   Cup: {fileID: 997691998}
   searchRadius: 10
   targetPosition: {x: 0, y: 0, z: 0}
+  animator: {fileID: 123961179}
 --- !u!195 &152172436
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1047,7 +1054,13 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Bip001'\n\tTransform 'Bip001 R Forearm'\n\tTransform
+    'Bip001 L Forearm'\n\tTransform 'Bip001 L UpperArm'\n\tTransform 'Bip001 R UpperArm'\n\tTransform
+    'Bip001 R Foot'\n\tTransform 'Bip001 R Calf'\n\tTransform 'Bip001 R Thigh'\n\tTransform
+    'Bip001'\n\tTransform 'Bip001 L Thigh'\n\tand more ...\n\tFrom animation clip
+    'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -2817,6 +2830,7 @@ MonoBehaviour:
   Cup: {fileID: 997691998}
   searchRadius: 10
   targetPosition: {x: 0, y: 0, z: 0}
+  animator: {fileID: 251386506}
 --- !u!195 &640640707
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3065,6 +3079,7 @@ MonoBehaviour:
   Cup: {fileID: 997691998}
   searchRadius: 10
   targetPosition: {x: 0, y: 0, z: 0}
+  animator: {fileID: 1871813593}
 --- !u!54 &727613678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3159,7 +3174,13 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Bip001'\n\tTransform 'Bip001 R Forearm'\n\tTransform
+    'Bip001 L Forearm'\n\tTransform 'Bip001 L UpperArm'\n\tTransform 'Bip001 R UpperArm'\n\tTransform
+    'Bip001 R Foot'\n\tTransform 'Bip001 R Calf'\n\tTransform 'Bip001 R Thigh'\n\tTransform
+    'Bip001'\n\tTransform 'Bip001 L Thigh'\n\tand more ...\n\tFrom animation clip
+    'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -7645,7 +7666,13 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Bip001'\n\tTransform 'Bip001 R Forearm'\n\tTransform
+    'Bip001 L Forearm'\n\tTransform 'Bip001 L UpperArm'\n\tTransform 'Bip001 R UpperArm'\n\tTransform
+    'Bip001 R Foot'\n\tTransform 'Bip001 R Calf'\n\tTransform 'Bip001 R Thigh'\n\tTransform
+    'Bip001'\n\tTransform 'Bip001 L Thigh'\n\tand more ...\n\tFrom animation clip
+    'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0

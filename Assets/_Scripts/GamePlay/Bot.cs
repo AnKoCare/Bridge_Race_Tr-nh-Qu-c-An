@@ -10,6 +10,8 @@ public class Bot : Character
     public float searchRadius = 10f;
     private NavMeshAgent navMeshAgent;
     [SerializeField] private Vector3 targetPosition;
+    [SerializeField] public Animator animator;
+    public int move;
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -78,6 +80,8 @@ public class Bot : Character
             {
                 // Đặt đích cho AI di chuyển đến vị trí đó
                 navMeshAgent.SetDestination(targetPosition);
+                move = 1;
+                animator.SetFloat("Move", Mathf.Abs(move));
             }
             else
             {
@@ -86,6 +90,8 @@ public class Bot : Character
 
                 // Đặt đích cho AI di chuyển đến vị trí đó
                 navMeshAgent.SetDestination(targetPosition);
+                move = 1;
+                animator.SetFloat("Move", Mathf.Abs(move));
             }
         }
     }
@@ -102,7 +108,9 @@ public class Bot : Character
 
     public override void OnClimbExecute()
     {
+        move = 1;
         navMeshAgent.SetDestination(Cup.transform.position);
+        animator.SetFloat("Move", Mathf.Abs(move));
         if(CountBrickBack <= 0)
         {
             ChangeState(new PatrolState());
@@ -121,6 +129,7 @@ public class Bot : Character
 
     public override void OnIdleExecute()
     {
+        //animator.SetFloat("Move", Mathf.Abs(Left_Right));
         base.OnIdleExecute();
     }
 
